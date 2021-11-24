@@ -203,7 +203,6 @@ margin-right: 0px;
 /* MAIN */
 
 /* hero section */
-
 .hero-section {
     background-image: linear-gradient(
         to right,
@@ -215,7 +214,7 @@ margin-right: 0px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    max-width: 1600px;
 }
 
 .title-hero {
@@ -268,7 +267,7 @@ margin-right: 0px;
     display: block;
     content: "";
     height: 120px;
-    background-size: 70 70;
+    background-size: 70px 70px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
@@ -394,7 +393,7 @@ margin-right: 0px;
 
 .list-sl {
     display: flex;
-    margin-left: 30px;
+    justify-content: center;
     margin-top: 16px;
 }
 
@@ -450,6 +449,15 @@ margin-right: 0px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-right: 30px;
+    width: 170px;
+    height: 92px;
+}
+
+.client-link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 16px 32px;
 }
 
 .client-list-item:last-child {
@@ -474,6 +482,7 @@ margin-right: 0;
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 .adress-container {
@@ -503,23 +512,12 @@ margin-right: 0;
     margin-bottom: 9px;
 }
 
-.list-adress {
-    display: flex;
-}
-
 .list-adress-items {
     margin-top: 9px;
 }
+
 .list-adress-items:first-child {
     margin-top: 0;
-}
-
-.list-adress-items-sl {
-    margin-right: 10px;
-}
-
-.list-adress-items-sl:last-child {
-    margin-right: 0;
 }
 
 .sl-text {
@@ -537,38 +535,21 @@ margin-right: 0;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.social-link {
-    display: inline-block;
-    height: 44px;
+.link-icon-footer {
+    fill: #fff;
+}
+
+.link-icon-team-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 44px;
     border-radius: 50%;
-    background-color: rgba(255,255,255,0.1);
-    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.link-icon-team-footer:hover,
+.link-icon-team-footer:focus {
     background-color: #2196F3;
-}
-
-.sl-instagram {
-background-image: 
-url(../images/icons/icons-ss/instagram-f.svg);
-}
-
-.sl-twitter {
-background-image: 
-url(../images/icons/icons-ss/twitter-f.svg);
-}
-
-.sl-facebook {
-background-image: 
-url(../images/icons/icons-ss/facebook-f.svg);
-}
-
-.sl-in {
-background-image: 
-url(../images/icons/icons-ss/linkedin-f.svg);
 }

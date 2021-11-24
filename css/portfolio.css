@@ -25,6 +25,9 @@ padding-bottom: 94px;
 .btn-portfolio:focus {
     background-color: var(--accent-cl);
     color: #fff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 1px 2px rgba(0, 0, 0, 0.08),
+     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-ofs {
@@ -38,13 +41,6 @@ padding-bottom: 94px;
 }
 .list-ofs-items:last-child {
     margin-right: 0;
-}
-
-.list-ofs-cards-items:hover,
-.list-ofs-cards-items:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-     0px 4px 4px rgba(0, 0, 0, 0.06),
-     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* offers */
@@ -82,4 +78,15 @@ padding-bottom: 94px;
 
 .list-ofs-cards-items:nth-child(3n) {
     margin-right: 0;
+}
+
+.link-ofs-cards {
+    display: inline-block;
+}
+
+.link-ofs-cards:hover,
+.link-ofs-cards:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+     0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
